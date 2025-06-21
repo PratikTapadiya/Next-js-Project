@@ -1,9 +1,13 @@
-import React from 'react'
+import AdminNav from "@/app/_admin/AdminNav";
+import React from "react";
 
 const Login = () => {
   return (
-    <h3>Enter your credentials to Login</h3>
-  )
-}
+    <>
+      <AdminNav></AdminNav>
+      <h3>Enter your credentials to Login</h3>
+    </>
+  );
+};
 
-export default Login
+export default Login;
