@@ -1,3 +1,3 @@
 export default function Second() {
-  return <h1> Inside Blog's Second Page!</h1>;
+  return <h1> Inside Blogs Second Page!</h1>;
 }

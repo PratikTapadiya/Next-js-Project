@@ -4,5 +4,5 @@ interface PageProps {
 
 export default function BlogPost({ params }: PageProps) {
   const { category, slug } = params;
-  return <h1>{`Inside Blogs: ${category}/${slug}`}</h1>;
+  return <h1>{`Inside Blogs: ID ${category} and review ${slug} for the product`}</h1>;
 }

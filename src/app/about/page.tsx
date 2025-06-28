@@ -1,6 +1,7 @@
 //Example of Routing.
 export const metadata = {
   title: "About Codevolution!",
+  description:"Inside about page"
 };
 
 export default function About() {
